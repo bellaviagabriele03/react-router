@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-
+import logoImg from "../assets/logo-boolean.jpeg"
 export default function Header() {
 
     const Links = [
@@ -25,16 +25,13 @@ export default function Header() {
             <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
                 <div className="container-fluid">
                     <Link className="navbar-brand" to="/">
-                        <img src="" alt="" />
+                        <img width={"80px"} src={logoImg} alt="" />
                     </Link>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
                            {Links.map((link, index) => {
                             return (
-                                <NavLink className="nav-link" aria-current="page" to={link.path}>{link.title}</NavLink>
+                                <NavLink key={index} className="nav-link" aria-current="page" to={link.path}>{link.title}</NavLink>
                             )
                            })}
                             

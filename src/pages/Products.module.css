@@ -1,0 +1,14 @@
+.gladiator {
+    background-image: url("../assets/bg-gladiator.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+
+
+.imgGB {
+    width: 100%;
+    height: 230px;
+    
+}
