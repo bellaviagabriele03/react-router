@@ -1,0 +1,17 @@
+.relativeGB {
+    position: relative;
+}
+
+.abButtonGB {
+    position: absolute;
+}
+
+.ButtonGbRight {
+    top: 500px;
+    right: 200px;
+}
+
+.ButtonGbLeft {
+    top: 500px;
+    left: 200px;
+}

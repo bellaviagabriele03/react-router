@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import logoImg from "../assets/logo-boolean.jpeg"
+import logoImg from "../assets/img/logo.jpg"
 export default function Header() {
 
     const Links = [
