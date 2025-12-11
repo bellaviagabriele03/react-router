@@ -7,11 +7,10 @@ import { useState, useEffect } from "react"
 export default function SingleProduct() {
 
     const { id } = useParams()
-    const [single, setSingle] = useState()
+    const [single, setSingle] = useState([])
 
     function getSingleProduct() {
-        axios.get(`https://fakestoreapi.com/products/${id}`).then((resp) => {
-
+        axios.get(`https://fakestoreapi.com/products/${id}`).then((resp) => {            
             setSingle(resp.data)
 
         })
