@@ -7,11 +7,11 @@
 }
 
 .ButtonGbRight {
-    top: 500px;
-    right: 200px;
+    top: 50%;
+    right: -70px;
 }
 
 .ButtonGbLeft {
-    top: 500px;
-    left: 200px;
+    top: 50%;
+    left: -70px;
 }
